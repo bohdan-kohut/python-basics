@@ -25,4 +25,4 @@ def add_user():
     users.append(user)
     save_users(users)
 
-    
+json.dump(users, file, indent=4)    
